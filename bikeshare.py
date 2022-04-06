@@ -54,7 +54,7 @@ def get_filters():
                 break
              
         finally:
-            print('Month name has been provided as: ', month, '\n')
+            print('Month name has been provided as {} \n'.format(month.title()))
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     print('Which day would you like to explore?... monday, tuesday, ..., sunday or all \n')

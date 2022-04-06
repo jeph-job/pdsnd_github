@@ -268,6 +268,7 @@ def main():
         if restart.lower() != 'yes':
             
 # Trying something new from here down....
+# Getting two different inputs from users... To compare two different cities chosen by the user.
 
             print('Will you like compare two different cities? \n')
             response = input('yes or no: \n').lower()

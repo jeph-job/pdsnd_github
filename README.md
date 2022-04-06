@@ -7,7 +7,7 @@ This **README file** was created on  *06/04/2022* .
 Bikeshare Analysis
 
 ### Description
-Describe what your project is about and what it does
+In this project, I make use of Python to explore data related to **bike share systems** for three major cities in the United States— _Chicago, New York City, and Washington_. I wrote code to import the data and answer interesting questions about it by computing descriptive statistics. I also wrote a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Files used
 Include the files used

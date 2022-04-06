@@ -36,7 +36,7 @@ def get_filters():
                 break
                
         finally:
-            print('City name has been provided as: ', city, '\n')
+            print('City name has been provided as {} \n'.format(city.title()))
             
     # get user input for month (all, january, february, ... , june)
     print('Which month would you like to explore?... january, february,...,june or all \n')
@@ -54,7 +54,7 @@ def get_filters():
                 break
              
         finally:
-            print('Month name has been provided as: ', month, '\n')
+            print('Month name has been provided as {} \n'.format(month.title()))
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     print('Which day would you like to explore?... monday, tuesday, ..., sunday or all \n')
@@ -268,6 +268,7 @@ def main():
         if restart.lower() != 'yes':
             
 # Trying something new from here down....
+# Getting two different inputs from users... To compare two different cities chosen by the user.
 
             print('Will you like compare two different cities? \n')
             response = input('yes or no: \n').lower()

@@ -36,7 +36,7 @@ def get_filters():
                 break
                
         finally:
-            print('City name has been provided as: ', city, '\n')
+            print('City name has been provided as {} \n'.format(city.title()))
             
     # get user input for month (all, january, february, ... , june)
     print('Which month would you like to explore?... january, february,...,june or all \n')

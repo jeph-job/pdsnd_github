@@ -19,6 +19,5 @@ In this project, I make use of Python to explore data related to **bike share sy
 	- new_york_city.csv
 	- washington.csv
 
-### Credits
-~~None~~
+
 
